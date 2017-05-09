@@ -80,7 +80,7 @@ function playSound(e){
 
   if (!audio) return; //stop the function from running all together
   audio.currentTime = 0;
-  audio.play();
+  audio.play(); // play fires the constant of audio
   key.classList.add('playing');// add class to "key" -- classList is the thing that you tie into
 
 };
